@@ -1,0 +1,59 @@
+h1 {
+    color:crimson;
+    font-size: 34;
+    text-align: center;
+    margin: 1 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+    color: purple;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(163, 107, 3);
+    text-align: center;
+}
+.h3-2{
+    text-align: left;
+}
+
+.ul1 {
+    list-style: none;
+    display: flex;
+    margin: 0 500px;
+}
+.li1 {
+    margin: 0 10px;
+}
+
+
+.ul2 {
+    list-style-position: inside;
+    text-align: center;
+}
+ol {
+    text-align: center;
+    list-style-position:inside
+    
+}
+
+p{
+    display: inline;
+    margin-left:100px;
+}
+
+.p2{
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+img {
+    margin-top: 50px;
+    height: 350px;
+    width: 350px;
+}
+figcaption {
+    margin-top: 20px;
+    text-align:center;
+    margin-left: 50px;
+}
