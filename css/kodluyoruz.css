@@ -1,6 +1,6 @@
 h1 {
     color:crimson;
-    font-size: 34;
+    font-size: 34px;
     text-align: center;
     margin: 1 auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -13,6 +13,7 @@ h2 {
 h3 {
     color: rgb(163, 107, 3);
     text-align: center;
+    margin-top: 50px;
 }
 .h3-2{
     text-align: left;
@@ -21,16 +22,19 @@ h3 {
 .ul1 {
     list-style: none;
     display: flex;
-    margin: 0 500px;
+    justify-content: center;
+    align-items: center;
 }
 .li1 {
-    margin: 0 10px;
+    margin: 10px 20px;
 }
 
 
 .ul2 {
-    list-style-position: inside;
-    text-align: center;
+    list-style-position: outside;
+    max-width: 100px;
+    margin: 20px auto;
+   
 }
 ol {
     text-align: center;
